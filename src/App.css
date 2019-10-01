@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/*============================================
+| HEADER FACEBOOK
+============================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: rgb(34, 34, 34);
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #4a90e2;
+}
+
+header nav {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 0 50px;
+}
+
+nav img {
+  height: 24px;
+}
+
+nav div {
+  display: flex;
+  align-items: flex-end;
+}
+
+nav span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+nav > div i {
+  margin-left: 10px;
+}
+
+div.postlist {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.post {
+  width: 680px;
+  background-color: #fff;
+  margin: 15px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 24px;
+}
+
+div.header {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+}
+
+div.profile {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+span.author {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+span.date {
+  font-size: 12px;
+  color: rgb(153, 153, 153);
+}
+
+p.post-content {
+  padding: 20px 0px 20px 0px;
+  border-bottom: 1px solid #ddd;
+}
+
+div.comment {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+}
+
+div.comment p {
+  background-color: #ddd;
+  width: 100%;
+  border-radius: 20px;
+  padding: 12px;
+  margin-left: 20px;
+}
+
+div.comment p span {
+  font-weight: bold;
+}
